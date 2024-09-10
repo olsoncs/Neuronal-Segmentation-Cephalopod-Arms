@@ -47,9 +47,13 @@ Expected run time: 15 seconds
 2. Verify the data path is correct given operating system (line 5)
 3. Run Code
 4. Expected output:
+   
 	a. segment/sucker plot down the proximal-distal axis for arm 1 and arm 2
+
 	b. sucker width plot down the proximal-distal axis for arm 1 and arm 2
-	c. stats plot for a 2 way anova for segment width 
+
+	c. stats plot for a 2 way anova for segment width
+
 	d. segment width plot down the proximal-axis for arm 1 and arm 2 with significance stars
 
 ExternalInternalAnalysis.mlx
@@ -62,8 +66,12 @@ Expected run time: 20 seconds
 2. Verify the data path is correct given operating system (line 5)
 3. Run Code
 4. Expected output:
-	a. stats plot for a 2 way anova for segment width 
+   
+	a. stats plot for a 2 way anova for segment width
+
 	b. segment width plot down the proximal-axis subdivided by internal and external ANC for arm 1 with significance stars
-	c. stats plot for a 2 way anova for nuclei density 
+
+	c. stats plot for a 2 way anova for nuclei density
+
 	d. nuclei density plot down the proximal-distal axis subdivided by internal and external ANC for arm 1 with significance stars
 
