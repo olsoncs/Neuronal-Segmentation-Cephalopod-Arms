@@ -23,7 +23,7 @@ This code is supported on Windows and macOS. It has been tested on Windows v. 10
 In FIJI, make sure Area is selected under "Analyze">"Set Measurements"
 
 Time to install: With ImageJ/FIJI already installed, time to install macro is the time to download and open. 
-
+********************************************
 **Instructions to run:**
 
 cellCountDensity.ijm
