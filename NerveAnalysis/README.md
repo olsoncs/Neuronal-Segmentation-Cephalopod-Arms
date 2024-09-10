@@ -66,7 +66,9 @@ Expected run time: 15 - 30 seconds
 2. Change the data path to reflect its location and the appropriate syntax on your personal computer 
 3. Run code either cell by cell (control + enter) or run all cells at once
 4. Expected output:
+   
 	a. plot of aboral nerve fibers average trajectory
+
 	b. plot of central nerve fibers average trajectory 
 
 brachialTipDistribution.ipynb
@@ -79,7 +81,9 @@ Expected run time: 10 - 15 seconds
 2. Change the data path to reflect its location and the appropriate syntax on your personal computer 
 3. Run code either cell by cell (control + enter) or run all cells at once
 4. Expected output:
-	a. plot of actual brachial nerve tip distribution 
+   
+	a. plot of actual brachial nerve tip distribution
+
 	b. plot of hypothetical brachial nerve tip distribution
 
 	
@@ -93,6 +97,7 @@ Expected run time: 10-20 seconds
 2. Change the data path to reflect its location and the appropriate syntax on your personal computer 
 3. Run code either cell by cell (control + enter) or run all cells at once
 4. Expected output:
+   
 	a. plot of aboral nerve fiber sholl plots 
 
 suckerTipDistribution.ipynb
@@ -105,5 +110,7 @@ Expected run time: 10-25 seconds
 2. Change the data path to reflect its location and the appropriate syntax on your personal computer 
 3. Run code either cell by cell (control + enter) or run all cells at once
 4. Expected output:
+   
 	a. plot of oral nerve tips tagged by color
+
 	b. percentage of converage of the sucker by each side of the ANC 
