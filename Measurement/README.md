@@ -6,11 +6,13 @@ Cassady S. Olson
 
 ProximalDistalAnalysis.mlx is custom MATLAB code to evaluate changes in the segmentation pattern down the proximal-distal axis of the octopus arm. Three parameters are examined: segments/sucker, sucker width, and segment width.
 
-ExternalInternalAnalysis.mlx is custom MATLAB code to evaluate changes in the segmentation pattern between the external side of the axial nerve cord (ExA) and the internal side of the axial nerve cord (InA) and down the proximal-distal axis of the arm. Two parameters are examined: segment width and density of nuclei within the segments. 
+ExternalInternalAnalysis.mlx is custom MATLAB code to evaluate changes in the segmentation pattern between the external side of the axial nerve cord (ExA) and the internal side of the axial nerve cord (InA) and down the proximal-distal axis of the arm. Three parameters are examined: segment width, density of nuclei within the segments, and cross sectional area of the segments. 
+
+GroupAvgSem.m is a custom MATLAB function to find the average and standard error of the mean (SEM) based on conditions. 
 
 sigstar by Rob Campbell (2024) (raacampbell/sigstar (https://github.com/raacampbell/sigstar)) is used to apply significance stars over the plots. 
 
-Within the data folder, there are two MATLAB files containing measurements for Arm 1 and Arm 2 in a data structure. The series for Arm 1 was stained with acetylated alpha tubulin and counterstained with phalloidin and DAPI. The series for Arm 2 was stained with Hematoxylin and Eosin (H&E).
+Within the data folder, there are three MATLAB files containing measurements for Arm 1, Arm 2, and cross sectional area in a data structure. The series for Arm 1 was sectioned longitudinally, stained with acetylated alpha tubulin and counterstained with phalloidin and DAPI. The series for Arm 2 was sectioned longitudinally and stained with Hematoxylin and Eosin (H&E). The series for cross sectional area was sectioned horizontally and staied with acetylated alpha tubulin. 
 
 **Hardware Requirements:**
 
@@ -74,4 +76,6 @@ Expected run time: 20 seconds
 	c. stats plot for a 2 way anova for nuclei density
 
 	d. nuclei density plot down the proximal-distal axis subdivided by internal and external ANC for arm 1 with significance stars
+
+   	e. cross sectional area plot across four levels of the ANC from oral to aboral, subdivided by internal and external ANC
 
